@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 
-const port = process.env.port || 3000;
+const port = process.env.PORT || 8080;
 
 app.get('/api/branches/autocomplete', (req, res, next) => {
     res.send(req.query.x);
