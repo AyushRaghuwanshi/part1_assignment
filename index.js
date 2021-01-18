@@ -12,5 +12,5 @@ app.get('/api/branches', (req, res, next) => {
 });
 
 app.listen(port, () => {
-    console.log("server is listing on port http://localhost:3000");
+    console.log(`server is listing on port http://localhost:${port}`);
 });
